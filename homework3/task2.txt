@@ -1,0 +1,8 @@
+Tue Sep 10 22:21:41 UTC 2024
+/dev/root              5120000   2417700   2702300  47% /
+   0 clear
+   1 date > task2.txt
+   2 df / | head -2 | tail -1 >> task2.txt
+   3 history | tail -5 >> task2.txt
+AuthenticX86
+33
