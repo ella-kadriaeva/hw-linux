@@ -1,0 +1,13 @@
+localhost:~# ./myfirstbashscript.sh
+Mon Sep 30 20:30:34 UTC 2024
+Hello Ella !
+/root
+35
+10
+-rw-r--r--
+
+localhost:~# history
+   0 vi myfirstbashscript.sh
+   1 chmod u+x myfirstbashscript.sh
+   2 ./myfirstbashscript.sh
+   3 history
