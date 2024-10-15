@@ -14,10 +14,12 @@
  14 done
  15 echo "Data saved. Continue work"
  16 df -h >> ella_date.txt
- 17 cp /tmp/ella_date.txt /opt/elladate/new_ella_date.txt
- 18 for sec in {1..5}
- 19 do
- 20 echo $sec
- 21 sleep 1
- 22 done
- 23 echo "Well done Boss"
+ 17 mkdir -p /opt/elladate
+ 18 cp /tmp/ella_date.txt /opt/elladate/new_ella_date.txt
+ 19 for sec in {1..5}
+ 20 do
+ 21 echo $sec
+ 22 sleep 1
+ 23 done
+ 24 echo "Well done Boss"
+
